@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+/* Style for the entire Navbar container */
+
+
+.navbar-container {
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style for the logo */
+  .navbar-logo {
+    width: 160px;
+    height: 38px;
+    /* You can add more styling if needed, such as margins or padding */
+  }
+  
+  /* Style for the navigation links */
+  .navbar-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .navbar-nav a {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired link color */
+  }
+  
+  /* Style for the buttons */
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-buttons button {
+    margin-right: 10px; /* Adjust the spacing between buttons */
+    background-color: #007bff; /* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Style for button hover effect (optional) */
+  .navbar-buttons button:hover {
+    background-color: #0056b3; /* Change this to your desired hover background color */
+  }
+  
+  /* Add any additional styles you need */
+  
