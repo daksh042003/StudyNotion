@@ -1,0 +1,70 @@
+/* Style the main container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style the left side of the container */
+  .left {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left p {
+    font-size: 16px;
+  }
+  
+  /* Style the form and buttons */
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #357ae8;
+  }
+  
+  .button-container p {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style the right side of the container */
+  .right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
